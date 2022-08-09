@@ -31,5 +31,5 @@ module SeedFu
 end
 
 ActiveSupport.on_load(:active_record) do
-  send :extend, SeedFu::ActiveRecordExtension
+  extend SeedFu::ActiveRecordExtension
 end
